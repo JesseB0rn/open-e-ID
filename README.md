@@ -6,7 +6,7 @@ Komponenten:
 - Pass-App (Endnutzer)
 - Verifizierungsapp
 
-Damit werden medienbruchfreie Prozesse in der Verwaltung und bei Unternehmen möglich, welche heute auf Seiten der zu verifizierenden Personen wie auch auf Seite der Verwaltung und bei Unternehmen unnötige Aufwände verursachen.
+"Damit werden medienbruchfreie Prozesse in der Verwaltung und bei Unternehmen möglich, welche heute auf Seiten der zu verifizierenden Personen wie auch auf Seite der Verwaltung und bei Unternehmen unnötige Aufwände verursachen." - Bundesamt für Justiz BJ
 
 Das System soll dabei auch mit nur sporadisch aktualisierten/mit dem Internet verbundenen Geräten funktionieren, sich aber auf eine Zentrale Autorität verlassen. So können open-e-IDs mathematisch bewiesen sicher sein und auf produktionsgetesteten Kryptografischen Algorithmen aufbauen. Diese Autorität kann dabei e-ID ausstellen oder widerrufen. Ist eine e-ID erst einmal ausgestellt, bleibt diese unveränderbar für eine fixe Zeit gültig.
 
