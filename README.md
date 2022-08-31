@@ -1,4 +1,4 @@
-# open-d-ID
+# open-e-ID
 Ziel ist das Erstellen eines Systems zur notarisierten Ausstellung, Präsentation und Überprüfung einer digitalen Identitätskarte. 
 
 Komponenten:
