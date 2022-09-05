@@ -2,9 +2,11 @@
   "name": "open-e-id",
   "version": "1.0.0",
   "description": "Open source digital ID card system",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon server",
+    "build": "docker build . -t jesseb0rn/open-e-id",
+    "run": "docker run -p 8080:8080 -d jesseb0rn/open-e-id"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/JesseB0rn/open-e-ID/issues"
   },
-  "homepage": "https://github.com/JesseB0rn/open-e-ID#readme"
+  "homepage": "https://github.com/JesseB0rn/open-e-ID#readme",
+  "dependencies": {
+    "cose-js": "^0.8.4",
+    "express": "^4.18.1",
+    "qrcode": "^1.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
 }
