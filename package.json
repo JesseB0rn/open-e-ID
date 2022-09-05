@@ -1,0 +1,19 @@
+{
+  "name": "open-e-id",
+  "version": "1.0.0",
+  "description": "Open source digital ID card system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JesseB0rn/open-e-ID.git"
+  },
+  "author": "jesseb0rn",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/JesseB0rn/open-e-ID/issues"
+  },
+  "homepage": "https://github.com/JesseB0rn/open-e-ID#readme"
+}
