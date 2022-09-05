@@ -1,6 +1,7 @@
 "use strict";
 
 const express = require("express");
+const cose = require("cose-js");
 
 // Constants
 const PORT = 8080;
