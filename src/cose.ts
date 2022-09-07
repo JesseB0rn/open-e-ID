@@ -6,6 +6,7 @@ const cbor = require("cbor");
 const base45 = require("base45");
 
 import { KeyStoreKey } from "./key";
+import { personA } from "./testdata";
 
 export async function sign(signer: { key: { d: Buffer } }, kid: string, object: ID): Promise<string | undefined> {
   try {
@@ -40,10 +41,10 @@ async function test() {
   const key = new KeyStoreKey("1");
   // const key2 = new KeyStoreKey("2");
 
-  let qr = await sign({ key: { d: key.d } }, key.kid, new ID());
+  let qr = await sign({ key: { d: key.d } }, key.kid, personA);
   if (qr) {
     const i = await verify({ key: { x: key.x, y: key.y } }, qr);
-    console.log(JSON.parse(i.toString().slice(2)));
+    console.log(JSON.parse(i.toString("utf8").slice(2)));
   }
 }
 
